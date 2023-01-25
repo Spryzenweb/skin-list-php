@@ -1,0 +1,255 @@
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+
+.boxmodel {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 20px;
+  margin: 20px;
+  right: -400px;
+  position: relative;
+
+}
+.boxmodel3 {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 20px;
+  margin: 20px;
+  float: left;
+  position: relative;
+
+}
+.boxmodel2 {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 20px;
+  margin: 20px;
+  left: -200px;
+  float: right;
+  position: relative;
+
+
+}
+
+
+.support {
+   position: relative;
+    float: left;
+}
+
+
+
+
+ul {
+    list-style-type: none;
+
+    margin: 0;
+
+    padding: 0;
+
+    width: 12%;
+height:74%;
+
+    background-color: green;
+
+    position: fixed;
+
+   
+
+    overflow: auto;
+}
+
+body {
+    margin: 0;
+}
+
+
+
+li a {
+    display: block;
+
+    color: #000;
+
+    padding: 8px 16px;
+
+    text-decoration: none;
+}
+
+
+
+.btn-groupx .buttonx {
+  background-color: #ff0000; /* Green */
+  border: 1px solid green;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 150px;
+  display: block;
+}
+
+.btn-groupx .buttonx:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+.btn-groupx .buttonx:hover {
+  background-color: #3e8e41;
+}
+
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+#sv 
+.filterDiv {
+  float: left;
+  background-color: #2196F3;
+  color: #ffffff;
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin: 2px;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.container {
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+#myInput {
+  box-sizing: border-box;
+  --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+   
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+object-position: center;
+     text-align: center;
+}
+
+.data {
+  position: center;
+}
+
+.accounts {
+  
+  width: 300px;
+ 
+  padding: 20px;
+  margin: 20px;
+  right: -400px;
+  position: relative;
+}
